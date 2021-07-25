@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+p {
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 140%;
+}
+
 .container {
     max-width: 1140px;
     margin-left: auto;
@@ -155,4 +161,16 @@ textarea {
 .button-container {
   margin: auto;
   width: 700px;
+}
+
+/*about page CSS*/
+.container-about-1 {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  gap: 80px;
+}
+
+.container-about-1 > div {
+  flex: 1;
 }
