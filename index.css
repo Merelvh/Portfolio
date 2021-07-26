@@ -85,6 +85,7 @@ body {
 mark {
   background-color: #B5E0FF;
   color: #3E464B;
+  padding: 5px;
 }
 
 /*projects section*/
@@ -164,13 +165,19 @@ textarea {
 }
 
 /*about page CSS*/
-.container-about-1 {
+.container-about {
   display: flex;
   margin-top: 100px;
   margin-bottom: 100px;
   gap: 80px;
 }
 
-.container-about-1 > div {
+.container-about > div {
   flex: 1;
+}
+
+.illustration {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
