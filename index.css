@@ -4,7 +4,7 @@
 
 p {
     letter-spacing: 1px;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 140%;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 .topnav {
   display: flex;
-  font-size: 18px;
+  font-size: 16px;
   padding-top: 20px;
   align-items: center;
 }
