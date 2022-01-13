@@ -1,110 +1,62 @@
-* {
-  box-sizing: border-box;
+
+.btn.btn-primary {
+  background: #006E90;
+  padding: 15px 32px;
+  border: none;
 }
 
 p {
     letter-spacing: 1px;
     font-size: 16px;
-    line-height: 140%;
+    line-height: 150%;
+    font-family: "montserrat", sans-serif;
+    color: #3E464B;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "rubik", sans-serif;
+  color: #3E464B;
+  line-height: 150%;
 }
 
 .container {
     max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 body {
-  font-family: "comfortaa";
+  font-family: "montserrat", sans-serif;
   color: #3E464B;
-  margin: 0;
 }
+
 /*header & navigation*/
 .header {
   background: #F4FBFF;
-  padding-top: 20px;
-  padding-left: 70px;
-  padding-right: 50px;
-  padding-bottom: 50px;
 }
-.topnav {
-  display: flex;
-  font-size: 16px;
-  padding-top: 20px;
-  align-items: center;
-}
-.topnav a {
-  color: #3E464B;
+.navbar a {
   text-decoration: none;
-  padding: 10px;
+  color: #3E464B;
+  padding: 5px !important;
 }
-.topnav a:first-child {
-  padding-left: 0;
-}
-.topnav a:last-child {
-  padding-right: 0;
-}
-.topnav a.active {
+.navbar a.active {
   border-bottom: 4px solid #B5E0FF;
 }
-.topnav a:hover {
-  font-weight: bold;
-  color: #B5E0FF;
-}
-
-.container1 {
-  flex: 3;
-  flex-direction: row;
-}
-.container2 {
-  display: flex;
-  flex: 2;
-  flex-direction: row;
-  justify-content: space-between;
+.navbar a:hover {
+  background: #B5E0FF;
+  color: #3E464B;
 }
 
 /*header text*/
-.header-text {
-  padding-top: 144px;
-  padding-bottom: 218px;
-}
-.first-line {
-  color: #3E464B;
-  font-size: 40px;
-  font-weight: lighter;
-}
-.second-line {
-  color: #3E464B;
-  font-size: 60px;
-}
-.third-line {
-  color: #3E464B;
-  font-size: 40px;
-  font-weight: lighter;
-}
 mark {
   background-color: #B5E0FF;
   color: #3E464B;
   padding: 5px;
 }
 
-/*projects section*/
-.projects {
-  text-align: center;
-}
-
 /*footer*/
 footer {
     background: #F4FBFF;
-    padding-top: 20px;
-    padding-left: 70px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    height: 700px;
 }
-.header-footer {
-  text-align: center;
-}
+
 .form-row {
   display: flex;
 }
@@ -129,15 +81,15 @@ input[type=text], select {
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #EDEDED;
-  font-family: 'comfortaa';
+  font-family: "montserrat", sans-serif;
   color: #3E464B;
 }
 input::-webkit-input-placeholder {
-  font-family: 'comfortaa';
+  font-family: "montserrat", sans-serif;
   color: #A1ABB1;
 }
 textarea::-webkit-input-placeholder {
-  font-family: 'comfortaa';
+  font-family: "montserrat", sans-serif;
   color: #A1ABB1;
 }
 textarea {
@@ -147,21 +99,8 @@ textarea {
   margin: 8px 0;
   border: 1px solid #EDEDED;
   resize: none;
-  font-family: 'comfortaa';
+  font-family: "montserrat", sans-serif;
   color: #3E464B;
-}
-.button-send {
-  background-color: #006E90;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-family: 'comfortaa';
-}
-.button-container {
-  margin: auto;
-  width: 700px;
 }
 
 /*about page CSS*/
