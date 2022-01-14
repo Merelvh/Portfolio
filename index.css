@@ -51,56 +51,29 @@ mark {
   color: #3E464B;
   padding: 5px;
 }
+mark:hover {
+  background-color: #3E464B;
+  color: #B5E0FF;
+}
 
 /*footer*/
 footer {
     background: #F4FBFF;
 }
 
-.form-row {
-  display: flex;
-}
-.form-row div {
-  flex: 1;
-}
-form {
-  width: 700px;
-  margin: 0 auto;
-}
-.name {
-  display: flex;
-  justify-content: flex-start;
-}
-.email {
-  display: flex;
-  justify-content: flex-end;
-}
-input[type=text], select {
-  width: 337px;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #EDEDED;
-  font-family: "montserrat", sans-serif;
-  color: #3E464B;
-}
-input::-webkit-input-placeholder {
-  font-family: "montserrat", sans-serif;
-  color: #A1ABB1;
-}
-textarea::-webkit-input-placeholder {
-  font-family: "montserrat", sans-serif;
-  color: #A1ABB1;
-}
-textarea {
-  width: 100%;
+#floatingTextarea {
   height: 200px;
-  padding: 12px 20px;
-  margin: 8px 0;
+}
+
+.form-floating {
   border: 1px solid #EDEDED;
-  resize: none;
   font-family: "montserrat", sans-serif;
   color: #3E464B;
+}
+
+.form-control:focus {
+  border-color: #006E90;
+  box-shadow: inset 0 1px 1px rgba(0, 110, 144, 0.075), 0 0 8px rgba(0, 110, 144, 0.6);
 }
 
 /*about page CSS*/

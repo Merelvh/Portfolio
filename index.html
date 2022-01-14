@@ -28,45 +28,57 @@
         </div>
       </div>
       <div class="header-text py-5">
-        <h1 class="text-start pt-5">Hi, I'm <mark>Merel</mark></h1>
-        <h1 class="text-center">A Dutch <mark>designer</mark> based in the Netherlands</h1>
-        <h1 class="text-end pb-5">Welcome to my <mark>portfolio</mark></h1>
+        <h1 class="text-start pt-5">Hi, I'm <mark>Merel van Huijstee</mark></h1>
+        <h1 class="text-center">A Dutch <mark>UX/UI designer</mark> based in Amsterdam</h1>
+        <h1 class="text-end pb-5">Welcome to my <mark>portfolio</mark>!</h1>
       </div>
     </div>
   </header>
 
   <section>
     <div class="container">
-      <h2 id="ProjectsBookmark" class="text-center">Projects</h2>
+      <h2 id="ProjectsBookmark" class="text-center py-5">My  projects</h2>
     </div>
   </section>
 
   <footer>
     <div class="container py-3 pb-5">
-      <h2 id="ContactBookmark" class="text-center mt-5">Let's stay in touch!</h2>
-      <h3 class="text-center">Send me a message</h3>
-      <div class="row">
-        <div class="col-md-12">
-          <form>
-            <div class="form-row">
-              <div class="name">
-                <label for="name"></label><br>
-                <input type="text" id="name" name="name" placeholder="Name"><br>
-              </div>
-              <div class="email">
-                <label for="email"></label><br>
-                <input type="text" id="email" name="email" placeholder="E-mail">
-              </div>
-            </div>
-            <div class="message">
-              <textarea id="message" name="message" placeholder="Message"></textarea>
-            </div>
-            <a href="mailto:merel@mijnreiservaring.nl" target="_blank" class="btn btn-primary">Send</a>
-          </form>
+      <div class="row py-5">
+        <h2 id="ContactBookmark" class="text-center mt-5">Let's stay in touch!</h2>
+        <h3 class="text-center">Send me a message</h3>
+        <div class="col-md-6">
         </div>
       </div>
+          <form>
+            <div class="row justify-content-center">
+              <div class="col-md-4">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingInput" placeholder="name">
+                  <label for="floatingInput">Name</label>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Email address</label>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Leave your message" id="floatingTextarea"></textarea>
+                  <label for="floatingTextarea">Message</label>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-md-8 my-3">
+                  <a href="mailto:merel@mijnreiservaring.nl" target="_blank" class="btn btn-primary">Send</a>
+                </div>
+              </div>
+            </div>
+          </form>       
     </div>
   </footer>
+
 </body>
 
 </html>

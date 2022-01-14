@@ -29,26 +29,31 @@
       </div>
     </div>
   </header>
-    
-    <section>
-      <div class="container">
-        <div class="container-about">
+
+  <section>
+    <div class="container">
+      <div class="container-about">
         <div>
           <h2 class="Mynameis">My name is <mark>Merel</mark></h2>
-          <p>I’m a self-taught UX and UI designer based in the Netherlands focusing on app, web and mobile interfaces. In addition, I am beginning to develop my skills in front-end programming. </p>
-          <p>My career started as a speech therapist, which I did for 5 years before switching to design. My time as a speech therapist greatly expanded my communications skills which transfer well when creating clear and easy to use user experiences.</p>
-          <p>Besides getting enthusiastic about using my creativity in my work, I’m a travel-enthusiast through and through. I have been maintaining my own travel based website since 2016 and have gained experience using a variety of tools like wordpress, html, css, food and travel photography.</p>
+          <p>I’m a self-taught UX and UI designer based in the Netherlands focusing on app, web and mobile interfaces.
+            In addition, I am beginning to develop my skills in front-end programming. </p>
+          <p>My career started as a speech therapist, which I did for 5 years before switching to design. My time as a
+            speech therapist greatly expanded my communications skills which transfer well when creating clear and easy
+            to use user experiences.</p>
+          <p>Besides getting enthusiastic about using my creativity in my work, I’m a travel-enthusiast through and
+            through. I have been maintaining my own travel based website since 2016 and have gained experience using a
+            variety of tools like wordpress, html, css, food and travel photography.</p>
         </div>
         <div>
           <img src="Illustrations/Illustration-Working-from-anywhere.png" alt="illustration-girl" class="illustration">
         </div>
-        </div>
       </div>
-    </section>
-    
-    <section>
-      <div class="container">
-        <div class="container-about">
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="container-about">
         <div>
           <img src="Illustrations/Illustration-Designer-girl.png" alt="illustration-designer-girl" class="illustration">
         </div>
@@ -61,34 +66,48 @@
             <li>Layout and typography</li>
           </ul>
         </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="container py-3 pb-5">
+      <div class="row py-5">
+        <h2 id="ContactBookmark" class="text-center mt-5">Let's stay in touch!</h2>
+        <h3 class="text-center">Send me a message</h3>
+        <div class="col-md-6">
         </div>
       </div>
-    </section>
-
-
-    <footer>
-      <h2 id="ContactBookmark" class="text-center">Let's stay in touch!</h2>
-      <h3 class="text-center">Send me a message</h3>
-      <div class="row">
-        <div class="col-md-12">
           <form>
-            <div class="form-row">
-              <div class="name">
-                <label for="name"></label><br>
-                <input type="text" id="name" name="name" placeholder="Name"><br>
+            <div class="row justify-content-center">
+              <div class="col-md-4">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingInput" placeholder="name">
+                  <label for="floatingInput">Name</label>
+                </div>
               </div>
-              <div class="email">
-                <label for="email"></label><br>
-                <input type="text" id="email" name="email" placeholder="E-mail">
+              <div class="col-md-4">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Email address</label>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Leave your message" id="floatingTextarea"></textarea>
+                  <label for="floatingTextarea">Message</label>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-md-8 my-3">
+                  <a href="mailto:merel@mijnreiservaring.nl" target="_blank" class="btn btn-primary">Send</a>
+                </div>
               </div>
             </div>
-            <div class="message">
-              <textarea id="message" name="message" placeholder="Message"></textarea>
-            </div>
-            <a href="mailto:merel@mijnreiservaring.nl" target="_blank" class="btn btn-primary">Send</a>
-          </form>
-        </div>
-      </div>
-    </footer>
-  </body>
+          </form>       
+    </div>
+  </footer>
+
+</body>
 </html>
