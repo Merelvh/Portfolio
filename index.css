@@ -10,7 +10,7 @@ p {
 h1, h2, h3, h4, h5 {
   font-family: "rubik", sans-serif;
   color: #3E464B;
-  line-height: 170%;
+  line-height: 160%;
 }
 
 .container {
@@ -49,6 +49,17 @@ mark:hover {
   background-color: #3E464B;
   color: #B5E0FF;
 }
+
+/*projects section*/
+.circle
+  {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+    background: red;
+    position: absolute;
+    z-index: -1;
+  }
 
 /*footer*/
 footer {
