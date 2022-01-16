@@ -1,3 +1,18 @@
+:root {
+  --primary-yellow: #fada87;
+  --secondary-blue: #006E90;
+}
+
+.link {
+  color: var(--secondary-blue);
+}
+.link:hover {
+  color: #000;
+}
+.fas {
+  color: var(--secondary-blue);
+}
+
 
 p {
     letter-spacing: 1px;
@@ -24,7 +39,7 @@ body {
 
 /*header & navigation*/
 .header {
-  background: #F4FBFF;
+  background: #fff;
 }
 .navbar a {
   text-decoration: none;
@@ -32,38 +47,48 @@ body {
   padding: 5px !important;
 }
 .navbar a.active {
-  border-bottom: 4px solid #B5E0FF;
+  border-bottom: 4px solid #1A535C;
 }
 .navbar a:hover {
-  background: #B5E0FF;
-  color: #3E464B;
+  background: #1A535C;
+  color: #fff;
+  transition: 0.2s ease;
 }
 
 /*header text*/
 mark {
-  background-color: #B5E0FF;
+  background-color: var(--primary-yellow);
   color: #3E464B;
   padding: 5px;
 }
 mark:hover {
   background-color: #3E464B;
-  color: #B5E0FF;
+  color: var(--primary-yellow);
 }
 
 /*projects section*/
 .circle
   {
     border-radius: 50%;
-    width: 200px;
-    height: 200px; 
-    background: red;
+    width: 350px;
+    height: 350px; 
+    background: var(--primary-yellow);
+    opacity: 0.5;
     position: absolute;
     z-index: -1;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
   }
+
+.row-circle {
+  min-height: 300px;
+}
 
 /*footer*/
 footer {
-    background: #F4FBFF;
+    background: #fff;
 }
 
 #floatingTextarea {
@@ -82,28 +107,10 @@ footer {
 }
 
 .btn.btn-primary {
-  background: #006E90;
+  background: #2b8997;
   padding: 15px 32px;
   border: none;
 }
 .btn.btn-primary:hover {
-  background: #044f66;
-}
-
-/*about page CSS*/
-.container-about {
-  display: flex;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  gap: 80px;
-}
-
-.container-about > div {
-  flex: 1;
-}
-
-.illustration {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
+  background: #1A535C;
 }
