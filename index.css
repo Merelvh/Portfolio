@@ -1,39 +1,45 @@
 :root {
   --primary-yellow: #fada87;
-  --secondary-blue: #006E90;
+  --secondary-blue: #1A535C;
 }
 
 .link {
   color: var(--secondary-blue);
+  text-decoration: none;
 }
 .link:hover {
-  color: #000;
+  background: var(--secondary-blue);
+  color: #fff;
+  transition: 0.2s ease;
 }
-.fas {
-  color: var(--secondary-blue);
-}
-
 
 p {
     letter-spacing: 1px;
     font-size: 16px;
     line-height: 150%;
-    font-family: "montserrat", sans-serif;
+    font-family: "open sans", sans-serif;
     color: #3E464B;
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: "rubik", sans-serif;
+  font-family: "montserrat", sans-serif;
   color: #3E464B;
   line-height: 160%;
+  font-weight: bold;
+}
+h2 {
+  margin-top: 5%;
+}
+h3 {
+  font-size: 1.5rem;
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1000px;
 }
 
 body {
-  font-family: "montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #3E464B;
 }
 
@@ -47,13 +53,29 @@ body {
   padding: 5px !important;
 }
 .navbar a.active {
-  border-bottom: 4px solid #1A535C;
+  border-bottom: 4px solid var(--secondary-blue);
 }
 .navbar a:hover {
-  background: #1A535C;
+  background: var(--secondary-blue);
   color: #fff;
   transition: 0.2s ease;
 }
+
+/*single projects*/
+.cms-background {
+    background-color:#e5f0f7;
+}
+.cms-image {
+  width: 15%;
+}
+
+.affiliate-background {
+  background-color: pink;
+}
+.affiliate-image {
+  width: 40%;
+}
+
 
 /*header text*/
 mark {
@@ -67,12 +89,11 @@ mark:hover {
 }
 
 /*projects section*/
-.circle
-  {
+.circle-cms {
     border-radius: 50%;
-    width: 350px;
-    height: 350px; 
-    background: var(--primary-yellow);
+    width: 450px;
+    height: 450px; 
+    background: #e5f0f7;
     opacity: 0.5;
     position: absolute;
     z-index: -1;
@@ -81,14 +102,26 @@ mark:hover {
     margin: 0 auto;
     top: 0;
   }
-
+.circle-affiliate {
+    border-radius: 50%;
+    width: 450px;
+    height: 450px; 
+    background: pink;
+    opacity: 0.5;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
+}
 .row-circle {
-  min-height: 300px;
+  min-height: 410px;
 }
 
 /*footer*/
 footer {
-    background: #fff;
+    background: white;
 }
 
 #floatingTextarea {
@@ -100,17 +133,54 @@ footer {
   font-family: "montserrat", sans-serif;
   color: #3E464B;
 }
-
 .form-control:focus {
   border-color: #006E90;
   box-shadow: inset 0 1px 1px rgba(0, 110, 144, 0.075), 0 0 8px rgba(0, 110, 144, 0.6);
 }
-
 .btn.btn-primary {
   background: #2b8997;
   padding: 15px 32px;
   border: none;
 }
 .btn.btn-primary:hover {
-  background: #1A535C;
+  background: var(--secondary-blue);
 }
+
+.fa-envelope {
+  color: var(--secondary-blue);
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-envelope:hover {
+  background: var(--secondary-blue);
+  color: #fff;
+  transition: 0.2s ease;
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-linkedin-in {
+  color: var(--secondary-blue);
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-linkedin-in:hover {
+  background: var(--secondary-blue);
+  color: #fff;
+  transition: 0.2s ease;
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
