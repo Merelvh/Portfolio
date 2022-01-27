@@ -1,14 +1,13 @@
 :root {
-  --primary-yellow: #fada87;
+  --primary-yellow: #fcce5c;
   --secondary-blue: #1A535C;
 }
 
 .link {
   color: var(--secondary-blue);
-  text-decoration: none;
 }
 .link:hover {
-  background: var(--secondary-blue);
+  background: var(--primary-yellow);
   color: #fff;
   transition: 0.2s ease;
 }
@@ -41,6 +40,7 @@ h3 {
 body {
   font-family: "Open Sans", sans-serif;
   color: #3E464B;
+  padding-top: 50px;
 }
 
 /*header & navigation*/
@@ -53,10 +53,10 @@ body {
   padding: 5px !important;
 }
 .navbar a.active {
-  border-bottom: 4px solid var(--secondary-blue);
+  border-bottom: 4px solid var(--primary-yellow);
 }
 .navbar a:hover {
-  background: var(--secondary-blue);
+  background: var(--primary-yellow);
   color: #fff;
   transition: 0.2s ease;
 }
@@ -143,44 +143,23 @@ footer {
   border: none;
 }
 .btn.btn-primary:hover {
-  background: var(--secondary-blue);
+  background: var(--primary-yellow);
 }
 
-.fa-envelope {
+.contact-icon {
   color: var(--secondary-blue);
-  padding: 20px;
   font-size: 40px;
-  text-align: center;
+  width: 95px;
+  height: 95px;
   text-decoration: none;
   border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;  
 }
-.fa-envelope:hover {
-  background: var(--secondary-blue);
+.contact-icon:hover {
+  background: var(--primary-yellow);
   color: #fff;
   transition: 0.2s ease;
-  padding: 20px;
-  font-size: 40px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
-
-.fa-linkedin-in {
-  color: var(--secondary-blue);
-  padding: 20px;
-  font-size: 40px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
-.fa-linkedin-in:hover {
-  background: var(--secondary-blue);
-  color: #fff;
-  transition: 0.2s ease;
-  padding: 20px;
-  font-size: 40px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
 }
 
