@@ -65,16 +65,15 @@ body {
 .cms-background {
   background: rgba(1, 113, 172, 0.1);
 }
-.cms-image {
-  width: 15%;
-}
 
 .affiliate-background {
   background-color: pink;
 }
-.affiliate-image {
-  width: 40%;
+
+.saas-background {
+  background: rgba(28, 133, 232, 0.5);
 }
+
 
 
 /*header text*/
@@ -91,8 +90,8 @@ mark:hover {
 /*projects section*/
 .circle-cms {
     border-radius: 50%;
-    width: 450px;
-    height: 450px; 
+    width: 400px;
+    height: 400px; 
     background: rgba(1, 113, 172, 0.1);
     opacity: 0.5;
     position: absolute;
@@ -102,10 +101,25 @@ mark:hover {
     margin: 0 auto;
     top: 0;
   }
+
+  .circle-saas {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px; 
+    background: rgba(28, 133, 232, 0.5);
+    opacity: 0.5;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
+}
+
 .circle-affiliate {
     border-radius: 50%;
-    width: 450px;
-    height: 450px; 
+    width: 400px;
+    height: 400px; 
     background: pink;
     opacity: 0.5;
     position: absolute;
