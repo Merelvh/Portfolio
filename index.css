@@ -9,6 +9,7 @@
 .link:hover {
   background: var(--primary-yellow);
   color: #fff;
+  text-decoration: none;
   transition: 0.2s ease;
 }
 
