@@ -69,11 +69,11 @@ body {
 }
 
 .affiliate-background {
-  background-color: pink;
+  background-color: rgb(255, 192, 203);
 }
 
 .saas-background {
-  background: rgba(28, 133, 232, 0.5);
+  background: #92C7F9;
 }
 
 
@@ -90,50 +90,46 @@ mark:hover {
 }
 
 /*projects section*/
-.circle-cms {
-    border-radius: 50%;
-    width: 400px;
-    height: 400px; 
-    background: rgba(1, 113, 172, 0.1);
-    opacity: 0.5;
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    top: 0;
-  }
-
-  .circle-saas {
-    border-radius: 50%;
-    width: 400px;
-    height: 400px; 
-    background: rgba(28, 133, 232, 0.5);
-    opacity: 0.5;
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    top: 0;
+.link-project {
+  text-decoration: none;
+}
+.row-cms {
+  background: rgb(229, 240, 247);
+  overflow: hidden;
+  transition: .3s all ease-in-out;
+}
+.row-cms:hover {
+  background: rgb(229, 240, 247, 0.5);
+  animation-duration: 0.25s;
+  transition: .3s all ease-in-out;
 }
 
-.circle-affiliate {
-    border-radius: 50%;
-    width: 400px;
-    height: 400px; 
-    background: pink;
-    opacity: 0.5;
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    top: 0;
+.row-saas {
+  background: #92C7F9;
+  overflow: hidden;
+  transition: .3s all ease-in-out;
 }
-.row-circle {
-  min-height: 410px;
+.row-saas:hover {
+  background: rgb(146, 199, 249, 0.5);
+  animation-duration: 0.25s;
+  transition: .3s all ease-in-out;
 }
+
+.row-affiliate {
+  background: rgb(255, 192, 203);
+  overflow: hidden;
+  transition: .3s all ease-in-out;
+}
+.row-affiliate:hover {
+  background: rgb(255, 192, 203, 0.5);
+  animation-duration: 0.25s;
+  transition: .3s all ease-in-out;
+}
+
+.cms-image-homepage {
+  max-height: 300px;
+}
+
 
 /*footer*/
 footer {
