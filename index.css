@@ -115,6 +115,17 @@ mark:hover {
   transition: .3s all ease-in-out;
 }
 
+.row-jpf {
+  background: #C8C4DB;
+  overflow: hidden;
+  transition: .3s all ease-in-out;
+}
+.row-jpf:hover {
+  background: rgb(200, 196, 219, 0.5);
+  animation-duration: 0.25s;
+  transition: .3s all ease-in-out;
+}
+
 .row-affiliate {
   background: rgb(255, 192, 203);
   overflow: hidden;
@@ -126,7 +137,7 @@ mark:hover {
   transition: .3s all ease-in-out;
 }
 
-.cms-image-homepage {
+.mobile-image-homepage {
   max-height: 300px;
 }
 
