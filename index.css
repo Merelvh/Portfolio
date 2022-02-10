@@ -14,10 +14,8 @@
 }
 
 p {
-    letter-spacing: 1px;
-    font-size: 16px;
-    line-height: 150%;
-    font-family: "open sans", sans-serif;
+  line-height: 160%;  
+  font-family: "poppins", sans-serif;
     color: #3E464B;
 }
 
@@ -28,7 +26,7 @@ h1, h2, h3, h4, h5 {
   font-weight: bold;
 }
 h2 {
-  margin-top: 5%;
+  margin-top: 1em;
 }
 h3 {
   font-size: 1.5rem;
@@ -39,7 +37,7 @@ h3 {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "poppins", sans-serif;
   color: #3E464B;
   padding-top: 50px;
 }
@@ -68,13 +66,19 @@ body {
   background: rgba(1, 113, 172, 0.1);
 }
 
+.saas-background {
+  background: #92C7F9;
+}
+
+.jpf-background {
+  background: #C8C4DB;
+}
+
 .affiliate-background {
   background-color: rgb(255, 192, 203);
 }
 
-.saas-background {
-  background: #92C7F9;
-}
+
 
 
 /*header text*/
