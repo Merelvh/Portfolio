@@ -101,7 +101,7 @@ body {
 .yellow-line {
   display: flex;
   align-items: center;
-  color: var(--primary-yellow);
+  color: #1EADBB;
 }
 
 .yellow-line::after {
@@ -109,20 +109,25 @@ body {
   flex: 1;
   margin-left: 1rem;
   height: 1px;
-  background-color: var(--primary-yellow);
+  background-color: #1EADBB;
 }
 
 .line {
   display: flex;
   align-items: center;
-  color: var(--primary-yellow);
+  color: #1EADBB;
 }
 .line::before {
   content: '';
   flex: 1;
   margin-right: 1rem;
   height: 1px;
-  background-color: var(--primary-yellow);
+  background-color: #1EADBB;
+}
+
+.profile-image {
+  position: absolute;
+  right: 0px;
 }
 
 /*single projects--------------------------------------------------*/
