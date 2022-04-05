@@ -1,6 +1,7 @@
 :root {
   --primary-yellow: #fcce5c;
   --secondary-blue: #1A535C;
+  --tertiary-blue: #1EADBB;
 }
 
 .link {
@@ -101,7 +102,7 @@ body {
 .yellow-line {
   display: flex;
   align-items: center;
-  color: #1EADBB;
+  color: var(--tertiary-blue);
 }
 
 .yellow-line::after {
@@ -109,20 +110,20 @@ body {
   flex: 1;
   margin-left: 1rem;
   height: 1px;
-  background-color: #1EADBB;
+  background-color: var(--tertiary-blue);
 }
 
 .line {
   display: flex;
   align-items: center;
-  color: #1EADBB;
+  color: var(--tertiary-blue);
 }
 .line::before {
   content: '';
   flex: 1;
   margin-right: 1rem;
   height: 1px;
-  background-color: #1EADBB;
+  background-color: var(--tertiary-blue);
 }
 
 .profile-image {
