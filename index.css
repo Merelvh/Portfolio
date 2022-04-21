@@ -149,9 +149,28 @@ body {
 
 /*single projects--------------------------------------------------*/
 
+
+/*LPN*/
+.lpn-background {
+  background: rgba(168, 199, 187, 0.4);
+}
+.about-lpn {
+  background-color: rgb(168, 199, 187, 0.1);
+}
+.row-lpn {
+  background: rgb(168, 199, 187, 0.4);
+  overflow: hidden;
+  transition: .3s all ease-in-out;
+}
+.row-lpn:hover {
+  background: rgb(168, 199, 187, 0.2);
+  animation-duration: 0.25s;
+  transition: .3s all ease-in-out;
+}
+
 /*CMS*/
 .cms-background {
-  background: rgba(1, 113, 172, 0.1);
+  background: rgba(1, 113, 172, 0.2);
 }
 .about-cms {
   background-color: rgb(229, 240, 247, 0.1);
@@ -169,13 +188,13 @@ body {
 
 /*SaaS*/
 .saas-background {
-  background: #92C7F9;
+  background: rgb(146, 199, 249, 0.7);
 }
 .about-saas {
   background-color: rgb(146, 199, 249, 0.1);
 }
 .row-saas {
-  background: #92C7F9;
+  background: rgb(146, 199, 249, 0.7);
   overflow: hidden;
   transition: .3s all ease-in-out;
 }
@@ -187,13 +206,13 @@ body {
 
 /*JPF*/
 .jpf-background {
-  background: #C8C4DB;
+  background: rgb(200, 196, 219, 0.7);
 }
 .about-jpf {
   background-color: rgb(200, 196, 219, 0.1);
 }
 .row-jpf {
-  background: #C8C4DB;
+  background: rgb(200, 196, 219, 0.7);
   overflow: hidden;
   transition: .3s all ease-in-out;
 }
@@ -205,13 +224,13 @@ body {
 
 /*affiliate*/
 .affiliate-background {
-  background-color: rgb(255, 192, 203);
+  background-color: rgb(255, 192, 203, 0.7);
 }
 .about-affiliate {
   background-color: rgb(255, 192, 203, 0.1);
 }
 .row-affiliate {
-  background: rgb(255, 192, 203);
+  background: rgb(255, 192, 203, 0.7);
   overflow: hidden;
   transition: .3s all ease-in-out;
 }
