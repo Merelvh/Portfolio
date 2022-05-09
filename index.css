@@ -140,7 +140,7 @@ body {
 .profile-image {
   position: absolute;
   z-index: -10;
-  top: 5%;
+  top: 10%;
   right: 0px;
   width: 35%;
 }
@@ -166,7 +166,7 @@ body {
   background: rgba(168, 199, 187, 0.4);
 }
 .about-lpn {
-  background-color: rgb(168, 199, 187, 0.1);
+  background-color: rgb(168, 199, 187, 0.2);
 }
 .row-lpn {
   background: rgb(168, 199, 187, 0.4);
